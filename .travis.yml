@@ -20,3 +20,5 @@ deploy:
     secure: ${AIzaSyBcKu-qdPJTKQMUdp1yZ_zrSXjTd8d0zwQ}
   project: "react-basic-menu"
   message: "Done Deploy!! 🚁🚁🚁"
+
+after_deploy: "echo 'Done Deploy!! 🚁🚁🚁' "
