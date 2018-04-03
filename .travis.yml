@@ -1,0 +1,22 @@
+language: node_js
+
+node_js:
+  - "8.9"
+
+branches:
+  only:
+  - master
+
+script:
+  - yarn use-travis
+
+before_deploy: "echo 'Start deploying 🚀🚀🚀' "
+
+
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: ${FIREBASE_TOKEN}
+  project: "react-basic-menu"
+  message: "Done Deploy!! 🚁🚁🚁"
