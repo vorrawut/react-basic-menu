@@ -12,6 +12,7 @@ ul li {
 }
 
 ul li .menu-item {
+    background: #0fb8ad;
     text-align: center;
     vertical-align: middle;
     line-height: 65px;
@@ -22,5 +23,16 @@ ul li .menu-item {
 	padding: 10px;
 	text-align: center;
     border: 3px dashed #ccc;
+}
 
+ul li .menu-item:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+
+
+.App-body{
+    background: linear-gradient(to right, rgb(60, 59, 63), rgb(96, 92, 60));
 }
