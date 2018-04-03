@@ -17,6 +17,6 @@ deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: ${FIREBASE_TOKEN}
+    secure: ${AIzaSyBcKu-qdPJTKQMUdp1yZ_zrSXjTd8d0zwQ}
   project: "react-basic-menu"
   message: "Done Deploy!! 🚁🚁🚁"
